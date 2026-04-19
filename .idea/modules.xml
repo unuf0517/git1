@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day6_20260416/Day6_20260416.iml" filepath="$PROJECT_DIR$/Day6_20260416/Day6_20260416.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day7_20260418/Day7_20260418.iml" filepath="$PROJECT_DIR$/Day7_20260418/Day7_20260418.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1_20260326/day1_20260326.iml" filepath="$PROJECT_DIR$/day1_20260326/day1_20260326.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day2_20260328/day2_20260328.iml" filepath="$PROJECT_DIR$/day2_20260328/day2_20260328.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day3_20260402/day3_20260402.iml" filepath="$PROJECT_DIR$/day3_20260402/day3_20260402.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day4_20260409/day4_20260409.iml" filepath="$PROJECT_DIR$/day4_20260409/day4_20260409.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day5_2060411/day5_2060411.iml" filepath="$PROJECT_DIR$/day5_2060411/day5_2060411.iml" />
+    </modules>
+  </component>
+</project>
