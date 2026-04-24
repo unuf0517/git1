@@ -55,6 +55,22 @@ public class GameMap {
         map[row][col] = "\uD83D\uDC00";
     }
 
+    public void setBombMap(Bomb[] bombs) {
+        if (bombs == null) {
+            return;
+        }
+        for (int i = 0; i < bombs.length; i++) {
+            if (bombs[i] == null) {
+                continue;
+            }
+            map[bombs[i].getRow()][bombs[i].getCol()] = "\uD83D\uDCA3";
+        }
+    }
+
+    public String[][] getMap() {
+        return map;
+    }
+
     public int getRow() {
         return row;
     }

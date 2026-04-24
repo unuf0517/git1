@@ -3,7 +3,7 @@ package HitMouse;
 import java.util.Random;
 
 public class Mouse {
-    private int score=1;
+    private int score=2;
     private int row;
     private int col;
     Random r = new Random();

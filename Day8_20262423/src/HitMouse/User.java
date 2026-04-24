@@ -3,11 +3,21 @@ package HitMouse;
 public class User implements UserInput{
     private int score;
     private int life=3;
-    public void hit(Mouse mouse){
+    public void hit(Mouse mouse,Bomb[] bombs,int mapRow,int mapCol){
         System.out.println("请输入要打的行号：");
-        int row=userInput();
+        int row=userInput(1,mapRow);
         System.out.println("请输入要打的列号；");
-        int col=userInput();
+        int col=userInput(1,mapCol);
+        for (int i = 0; i < bombs.length; i++) {
+            if (row - 1 == bombs[i].getRow() && col - 1 == bombs[i].getCol()) {
+                System.out.println("踩到地雷，直接失败");
+                life=0;
+                System.out.println("当前得分："+score);
+                System.out.println("当前剩余生命值："+life);
+                System.out.println("========================");
+                return;
+            }
+        }
 
         if(row-1== mouse.getRow() && col-1==mouse.getCol()){
             System.out.println("打中了");
