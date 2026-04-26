@@ -27,7 +27,7 @@ public class Bomb {
         return bombs;
     }
 
-    private static boolean isBomb(String area, Bomb[] bombs, int size, int row, int col) {
+    public static boolean isBomb(String area, Bomb[] bombs, int size, int row, int col) {
         if (area == null) {
             return false;
         }
