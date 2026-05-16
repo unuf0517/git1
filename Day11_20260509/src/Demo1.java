@@ -6,8 +6,7 @@ public class Demo1 {
         String result="";
         Random r=new Random();
         for(int i=0;i<4;i++){
-            int charindex=r.nextInt(62);
-            result+=arr.charAt(charindex);
+            result+=arr.charAt(r.nextInt(62));
         }
         System.out.println(result);
     }
